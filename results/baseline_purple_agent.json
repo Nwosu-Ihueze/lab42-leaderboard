@@ -1,0 +1,11 @@
+{
+    "id": "baseline_purple_agent",
+    "overall_score": 82.52,
+    "detection_rate": 70.27,
+    "false_positive_rate": 6.0,
+    "time_to_detection": 85.38,
+    "information_leakage": 22.22,
+    "workflow_success": 95.2,
+    "scenarios_evaluated": 50,
+    "timestamp": "2026-01-15T00:00:00Z"
+}
