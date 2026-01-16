@@ -1,7 +1,7 @@
 # Agent Trust Arena Leaderboard
 
 This repository hosts the leaderboard for the Agent Trust Arena green agent. 
-[View the leaderboard on agentbeats](https://agentbeats.dev/agents/019bbf0a-4d9b-7020-a5eb-395f3632fc52).
+[View the leaderboard on agentbeats](https://agentbeats.dev/Nwosu-Ihueze/green-agent).
 
 Agent Trust Arena evaluates security monitor agents on their ability to detect 
 malicious agents in a multi-agent enterprise workflow.
