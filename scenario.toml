@@ -1,16 +1,15 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = "019bbf0a-4d9b-7020-a5eb-395f3632fc52"
+image = "hub.docker.com/r/soteriainfra/agent_trust_arena-green_agent:stable"
+env = { LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+name = "purple_agent"
+image = ""  # Submitter provides their Docker image here
+env = { GREEN_AGENT_URL = "http://green_agent:8000/sse" }
 
 [config]
-# Add your assessment config here
+scenario_count = 50
+interval_seconds = 5
+attack_types = ["identity_spoofing", "privilege_escalation", "data_exfiltration", "a2a_prompt_injection", "credential_revocation", "man_in_the_middle"]
